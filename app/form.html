@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>フォーム練習</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <h1>hello html world!</h1>
+        <h2>投稿フォーム</h2>
+        <form method="GET" action="result.html">
+          <div>
+            <table class="table">
+            <tr>
+              <th>おなまえ</th>
+              <td><input type="text" name="name" placeholder="name" size="30"></td>
+            </tr>
+            <tr>
+              <th>E-mail</th>
+              <td>
+                <input type="text" name="e-mail" placeholder="email address" size="30">
+              </td>
+            </tr>
+            <tr>
+              <th>題　　名</th>
+              <td>
+                <input type="text" name="subject" placeholder="subject" size="40">
+                <input type="submit" name="submit" value="送信"></td>
+            </tr>
+            <tr>
+              <th><br>コメント</th>
+              <td><textarea name="message" placeholder="message" rows="7" cols="70"></textarea></td>
+            </tr>
+          </table>
+          </div>
+        </form>
+    </body>
+</html>

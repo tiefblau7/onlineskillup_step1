@@ -1,0 +1,21 @@
+@charset "UTF-8";
+h1 {
+    color: red;
+}
+html{
+  font-family: serif;
+
+}
+body {
+  background-color: #ffffee;
+  padding-left: 10px;
+}
+.table {
+  text-align: left;
+}
+.table th {
+  background-color: #efaa88;
+  vertical-align: top;
+  padding-right: 10px;
+  color: #7f0000;
+}
